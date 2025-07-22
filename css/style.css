@@ -1,19 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     max-width: 1440px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     width: 100%;
-    font-family: "Roboto", sans-serif;
     margin: 0 auto;
-    background-color: #ffffff;
-    color: #434455;
 }
 
 header {
@@ -168,7 +166,7 @@ header {
 
 
 
-.portfolio {
+.Portfolio {
     display: flex;
     align-items: center;
     justify-content: center;
