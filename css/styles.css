@@ -36,7 +36,8 @@ color: #2e2f42;
 .nav-link:hover, 
 .nav-link:focus, 
 .nav-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.contacts-link:hover {
    color: #404bbf;
 }
 
@@ -55,7 +56,7 @@ color: #2e2f42;
    background: #2e2f42;
 }
 
-.section-logo {
+.features-title {
       font-weight: 700;
       font-size: 56px;
       line-height: 1.07143;
@@ -64,21 +65,22 @@ color: #2e2f42;
       color: #fff;
 }
 
-.button-section {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.button-section:hover,
+.button-section:focus  {
    background: #4d5ae5;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.04em;
       color: #fff;
+      cursor: pointer
 }
-.section-logoh3 {
-width: 1128px;
+.features-title {
+width: 264px;
    height: 104px;
 }  
 
-.teamh2 {
+.team-title {
       font-weight: 700;
       font-size: 36px;
       line-height: 1.11111;
@@ -130,4 +132,34 @@ width: 1128px;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #f4f4fd;
+}
+
+.section-team {
+   background-color: #f4f4fd
+}
+
+.section-logo {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 1.0;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #fff;
+}
+
+.team-card {
+   background-color: #fff
+}
+
+.team-portfolio {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #2e2f42;
+}
+
+.features-title {
+   color: #2e2f42;
 }
