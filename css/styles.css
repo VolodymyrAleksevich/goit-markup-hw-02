@@ -122,3 +122,12 @@ width: 1128px;
       letter-spacing: 0.02em;
       color: #f4f4fd;
 }
+
+.footer-span {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #f4f4fd;
+}
