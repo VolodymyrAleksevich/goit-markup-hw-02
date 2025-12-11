@@ -1,131 +1,216 @@
+/* =====================
+   Base styles
+===================== */
 
 body {
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: #fff;
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #fff;
 }
 
-ul, ol {
- list-style-type: none;
+ul,
+ol {
+   list-style-type: none;
 }
 
 a {
    text-decoration: none;
 }
 
+/* =====================
+   Logo
+===================== */
+
 .logo {
    font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4d5ae5;
-}
-.header-logi, .logo-part {
-color: #2e2f42;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
 }
 
-.nav-link {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #2e2f42;
+.logo-part {
+   color: #2e2f42;
 }
-.nav-link:hover, 
-.nav-link:focus, 
+
+/* =====================
+   Navigation
+===================== */
+
+.nav-link {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
 .nav-link:hover,
-.contacts-link:focus,
-.contacts-link:hover {
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
    color: #404bbf;
 }
+
+/* =====================
+   Contacts
+===================== */
 
 .contacts {
    font-style: normal;
 }
 
 .contacts-link {
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #434455;   
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
 }
+
+/* =====================
+   Hero
+===================== */
 
 .section {
    background: #2e2f42;
 }
 
-.features-title {
-      font-weight: 700;
-      font-size: 56px;
-      line-height: 1.07143;
-      letter-spacing: 0.02em;
-      text-align: center;
-      color: #fff;
+.section-logo {
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1.07;
+   /* виправлено */
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #fff;
+}
+
+.button-section {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #fff;
+   background-color: #4d5ae5;
+   /* основний колір кнопки */
+   cursor: pointer;
 }
 
 .button-section:hover,
-.button-section:focus  {
-   background: #4d5ae5;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      color: #fff;
-      cursor: pointer
+.button-section:focus {
+   background-color: #404bbf;
+   /* правильний інтерактивний колір */
 }
+
+/* =====================
+   Features section
+===================== */
+
 .features-title {
-width: 264px;
-   height: 104px;
-}  
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+   text-align: left;
+}
+
+/* типографіка для абзаців у features */
+.features-text {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+/* =====================
+   Team section
+===================== */
+
+.section-team {
+   background-color: #f4f4fd;
+}
 
 .team-title {
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.11111;
-      letter-spacing: 0.02em;
-      text-align: center;
-      color: #2e2f42;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #2e2f42;
 }
 
-.team-text {
-   text-align: center;
+.team-card {
+   background-color: #fff;
 }
+
+.team-card h3 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #2e2f42;
+}
+
+.team-card p {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #434455;
+}
+
+/* =====================
+   Portfolio section
+===================== */
+
+.team-portfolio {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.1;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #2e2f42;
+}
+
+.portfolio-card h3 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.portfolio-card p {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+/* =====================
+   Footer
+===================== */
+
 .page-footer {
    background: #2e2f42;
 }
 
 .footer-down {
    font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4d5ae5;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
 }
 
 .footer-span {
    font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.16667;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #f4f4fd;
-}
-
-.footer-text {
-   font-family: "Roboto", sans-serif;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #f4f4fd;
-}
-
-.footer-span {
    font-weight: 700;
    font-size: 18px;
    line-height: 1.17;
@@ -134,32 +219,11 @@ width: 264px;
    color: #f4f4fd;
 }
 
-.section-team {
-   background-color: #f4f4fd
-}
-
-.section-logo {
-      font-weight: 700;
-      font-size: 56px;
-      line-height: 1.0;
-      letter-spacing: 0.02em;
-      text-align: center;
-      color: #fff;
-}
-
-.team-card {
-   background-color: #fff
-}
-
-.team-portfolio {
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.1;
-      letter-spacing: 0.02em;
-      text-align: center;
-      color: #2e2f42;
-}
-
-.features-title {
-   color: #2e2f42;
+.footer-text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #f4f4fd;
 }
