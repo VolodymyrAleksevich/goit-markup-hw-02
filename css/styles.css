@@ -21,6 +21,7 @@ a {
    Logo
 ===================== */
 
+
 .logo {
    font-family: "Raleway", sans-serif;
    font-weight: 700;
@@ -73,7 +74,11 @@ a {
    Hero
 ===================== */
 
-.section {
+.logo-section {
+   background-color: #fff;
+}
+
+.hero-section {
    background: #2e2f42;
 }
 
@@ -104,9 +109,60 @@ a {
    /* правильний інтерактивний колір */
 }
 
+.hero-section-info {
+   background-color: #fff;
+   padding: 40px 20px;
+   /* відступи зверху/знизу */
+}
+
+.hero-section-info .logo-section {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: #2e2f42;
+   margin-bottom: 24px;
+   /* відступ до списку */
+}
+
+.hero-section-info .section-list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.hero-section-info .section-list li {
+   margin-bottom: 24px;
+   /* відступ між пунктами */
+}
+
+.hero-section-info .features-title {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+   margin-bottom: 4px;
+   /* невеликий відступ під заголовком */
+}
+
+.hero-section-info .features-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+   margin: 0;
+   /* прибрати зайві відступи */
+}
+
 /* =====================
    Features section
 ===================== */
+.section-list {
+background: #fff;
+}
 
 .features-title {
    font-weight: 500;
@@ -115,10 +171,11 @@ a {
    letter-spacing: 0.02em;
    color: #2e2f42;
    text-align: left;
-}
+} 
 
 /* типографіка для абзаців у features */
 .features-text {
+   font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -131,6 +188,15 @@ a {
 
 .section-team {
    background-color: #f4f4fd;
+}
+
+.team-text-item {
+   font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #434455;
 }
 
 .team-title {
@@ -170,7 +236,7 @@ a {
 .team-portfolio {
    font-weight: 700;
    font-size: 36px;
-   line-height: 1.1;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
@@ -185,10 +251,27 @@ a {
 }
 
 .portfolio-card p {
+   font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+}
+
+.card-content {
+   font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: #2e2f42;
+}
+
+.card-item {
+   font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
 }
 
 /* =====================
@@ -199,25 +282,6 @@ a {
    background: #2e2f42;
 }
 
-.footer-down {
-   font-family: "Raleway", sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #4d5ae5;
-}
-
-.footer-span {
-   font-family: "Raleway", sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #f4f4fd;
-}
 
 .footer-text {
    font-family: "Roboto", sans-serif;
@@ -225,5 +289,13 @@ a {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   color: #f4f4fd;
+}
+
+.page-footer .logo {
+   color: #4d5ae5;
+}
+
+.page-footer .logo-studio {
    color: #f4f4fd;
 }
